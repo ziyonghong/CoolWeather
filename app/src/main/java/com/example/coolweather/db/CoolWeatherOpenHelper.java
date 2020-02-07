@@ -4,6 +4,7 @@ import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
+//创建各表
 public class CoolWeatherOpenHelper extends SQLiteOpenHelper {
     /**
      * Province表建表语句
