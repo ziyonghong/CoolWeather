@@ -58,6 +58,8 @@ public class ChooseAreaActivity extends Activity {
      * 当前选中的级别
      */
     private int currentLevel;
+    public ChooseAreaActivity() {
+    }
 
     public ChooseAreaActivity(ProgressDialog progressDialog) {
         this.progressDialog = progressDialog;
